@@ -1,5 +1,5 @@
 import { ethers } from "ethers";
-import { parse, stringify } from "envfile";
+import { parse, stringify } from "envfile/compiled-types";
 import * as fs from "fs";
 
 const envFilePath = "./.env";

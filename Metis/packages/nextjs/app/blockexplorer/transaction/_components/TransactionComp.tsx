@@ -2,9 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import { Hash, Transaction, TransactionReceipt, formatEther, formatUnits } from "viem";
-import { hardhat } from "viem/chains";
-import { usePublicClient } from "wagmi";
+import { Hash, Transaction, TransactionReceipt, formatEther, formatUnits } from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
+import { usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
 import { Address } from "~~/components/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
 import { decodeTransactionData, getFunctionDetails } from "~~/utils/scaffold-eth";

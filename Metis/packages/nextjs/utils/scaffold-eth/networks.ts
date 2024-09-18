@@ -1,4 +1,4 @@
-import * as chains from "viem/chains";
+import * as chains from "~~/node_modules/viem/_types/chains";
 import scaffoldConfig from "~~/scaffold.config";
 
 type ChainAttributes = {

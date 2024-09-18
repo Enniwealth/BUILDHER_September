@@ -20,10 +20,10 @@ import {
   Log,
   TransactionReceipt,
   WriteContractErrorType,
-} from "viem";
-import { Config, UseReadContractParameters, UseWatchContractEventParameters } from "wagmi";
-import { WriteContractParameters, WriteContractReturnType } from "wagmi/actions";
-import { WriteContractVariables } from "wagmi/query";
+} from "~~/node_modules/viem/_types";
+import { Config, UseReadContractParameters, UseWatchContractEventParameters } from "~~/node_modules/wagmi/dist/types/exports";
+import { WriteContractParameters, WriteContractReturnType } from "~~/node_modules/wagmi/dist/types/exports/actions";
+import { WriteContractVariables } from "~~/node_modules/wagmi/dist/types/exports/query";
 import deployedContractsData from "~~/contracts/deployedContracts";
 import externalContractsData from "~~/contracts/externalContracts";
 import scaffoldConfig from "~~/scaffold.config";

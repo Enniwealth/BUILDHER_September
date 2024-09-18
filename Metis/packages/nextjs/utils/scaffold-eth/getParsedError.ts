@@ -1,4 +1,4 @@
-import { BaseError as BaseViemError, ContractFunctionRevertedError } from "viem";
+import { BaseError as BaseViemError, ContractFunctionRevertedError } from "~~/node_modules/viem/_types";
 
 /**
  * Parses an viem/wagmi error to get a displayable string

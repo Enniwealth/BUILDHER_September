@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Address, createPublicClient, http, toHex } from "viem";
-import { hardhat } from "viem/chains";
+import { Address, createPublicClient, http, toHex } from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
 
 const publicClient = createPublicClient({
   chain: hardhat,

@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import { hardhat } from "viem/chains";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
 import { AddressComponent } from "~~/app/blockexplorer/_components/AddressComponent";
 import deployedContracts from "~~/contracts/deployedContracts";
 import { isZeroAddress } from "~~/utils/scaffold-eth/common";

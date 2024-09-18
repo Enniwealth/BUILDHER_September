@@ -1,4 +1,4 @@
-import * as chains from "viem/chains";
+import * as chains from "~~/node_modules/viem/_types/chains";
 
 export type ScaffoldConfig = {
   targetNetworks: readonly chains.Chain[];

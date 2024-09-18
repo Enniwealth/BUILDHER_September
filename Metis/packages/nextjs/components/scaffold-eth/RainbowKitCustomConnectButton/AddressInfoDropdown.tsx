@@ -1,9 +1,9 @@
 import { useRef, useState } from "react";
 import { NetworkOptions } from "./NetworkOptions";
 import CopyToClipboard from "react-copy-to-clipboard";
-import { getAddress } from "viem";
-import { Address } from "viem";
-import { useDisconnect } from "wagmi";
+import { getAddress } from "~~/node_modules/viem/_types";
+import { Address } from "~~/node_modules/viem/_types";
+import { useDisconnect } from "~~/node_modules/wagmi/dist/types/exports";
 import {
   ArrowLeftOnRectangleIcon,
   ArrowTopRightOnSquareIcon,

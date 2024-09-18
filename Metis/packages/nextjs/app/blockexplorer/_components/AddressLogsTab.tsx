@@ -1,4 +1,4 @@
-import { Address } from "viem";
+import { Address } from "~~/node_modules/viem/_types";
 import { useContractLogs } from "~~/hooks/scaffold-eth";
 import { replacer } from "~~/utils/scaffold-eth/common";
 

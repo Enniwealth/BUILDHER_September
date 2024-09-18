@@ -1,7 +1,7 @@
 import { useTargetNetwork } from "./useTargetNetwork";
-import { Account, Address, Chain, Client, Transport, getContract } from "viem";
-import { usePublicClient } from "wagmi";
-import { GetWalletClientReturnType } from "wagmi/actions";
+import { Account, Address, Chain, Client, Transport, getContract } from "~~/node_modules/viem/_types";
+import { usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
+import { GetWalletClientReturnType } from "~~/node_modules/wagmi/dist/types/exports/actions";
 import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import { Contract, ContractName } from "~~/utils/scaffold-eth/contract";
 

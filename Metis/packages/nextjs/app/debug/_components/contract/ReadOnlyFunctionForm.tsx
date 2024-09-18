@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { InheritanceTooltip } from "./InheritanceTooltip";
 import { Abi, AbiFunction } from "abitype";
-import { Address } from "viem";
-import { useReadContract } from "wagmi";
+import { Address } from "~~/node_modules/viem/_types";
+import { useReadContract } from "~~/node_modules/wagmi/dist/types/exports";
 import {
   ContractInput,
   displayTxResult,

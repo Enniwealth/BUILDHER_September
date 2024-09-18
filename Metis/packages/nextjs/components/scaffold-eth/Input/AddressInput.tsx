@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { blo } from "blo";
 import { useDebounceValue } from "usehooks-ts";
-import { Address, isAddress } from "viem";
-import { normalize } from "viem/ens";
-import { useEnsAddress, useEnsAvatar, useEnsName } from "wagmi";
+import { Address, isAddress } from "~~/node_modules/viem/_types";
+import { normalize } from "~~/node_modules/viem/_types/ens";
+import { useEnsAddress, useEnsAvatar, useEnsName } from "~~/node_modules/wagmi/dist/types/exports";
 import { CommonInputProps, InputBase, isENS } from "~~/components/scaffold-eth";
 
 /**

@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { bytesToString, isHex, toBytes, toHex } from "viem";
+import { bytesToString, isHex, toBytes, toHex } from "~~/node_modules/viem/_types";
 import { CommonInputProps, InputBase } from "~~/components/scaffold-eth";
 
 export const BytesInput = ({ value, onChange, name, placeholder, disabled }: CommonInputProps) => {

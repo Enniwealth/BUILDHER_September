@@ -8,8 +8,8 @@ import {
   publicActions,
   walletActions,
   webSocket,
-} from "viem";
-import { hardhat } from "viem/chains";
+} from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
 import { decodeTransactionData } from "~~/utils/scaffold-eth";
 
 const BLOCKS_PER_PAGE = 20;

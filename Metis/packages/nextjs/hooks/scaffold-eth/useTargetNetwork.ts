@@ -1,5 +1,5 @@
 import { useEffect, useMemo } from "react";
-import { useAccount } from "wagmi";
+import { useAccount } from "~~/node_modules/wagmi/dist/types/exports";
 import scaffoldConfig from "~~/scaffold.config";
 import { useGlobalState } from "~~/services/store/store";
 import { ChainWithAttributes } from "~~/utils/scaffold-eth";

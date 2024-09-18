@@ -1,4 +1,4 @@
-import { Block, Transaction, TransactionReceipt } from "viem";
+import { Block, Transaction, TransactionReceipt } from "~~/node_modules/viem/_types";
 
 export type TransactionWithFunction = Transaction & {
   functionName?: string;

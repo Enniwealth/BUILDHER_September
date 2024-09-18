@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
 import { useQueryClient } from "@tanstack/react-query";
-import { UseBalanceParameters, useBalance, useBlockNumber } from "wagmi";
+import { UseBalanceParameters, useBalance, useBlockNumber } from "~~/node_modules/wagmi/dist/types/exports";
 
 /**
  * Wrapper around wagmi's useBalance hook. Updates data on every block change.

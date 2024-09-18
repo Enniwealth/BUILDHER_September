@@ -3,8 +3,8 @@
 import { useEffect, useState } from "react";
 import { InheritanceTooltip } from "./InheritanceTooltip";
 import { Abi, AbiFunction } from "abitype";
-import { Address, TransactionReceipt } from "viem";
-import { useAccount, useWaitForTransactionReceipt, useWriteContract } from "wagmi";
+import { Address, TransactionReceipt } from "~~/node_modules/viem/_types";
+import { useAccount, useWaitForTransactionReceipt, useWriteContract } from "~~/node_modules/wagmi/dist/types/exports";
 import {
   ContractInput,
   TxReceipt,

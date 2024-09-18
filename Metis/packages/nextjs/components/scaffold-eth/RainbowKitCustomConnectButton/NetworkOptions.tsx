@@ -1,5 +1,5 @@
 import { useTheme } from "next-themes";
-import { useAccount, useSwitchChain } from "wagmi";
+import { useAccount, useSwitchChain } from "~~/node_modules/wagmi/dist/types/exports";
 import { ArrowsRightLeftIcon } from "@heroicons/react/24/solid";
 import { getNetworkColor } from "~~/hooks/scaffold-eth";
 import { getTargetNetworks } from "~~/utils/scaffold-eth";

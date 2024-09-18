@@ -1,9 +1,9 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { Address as AddressType, createWalletClient, http, parseEther } from "viem";
-import { hardhat } from "viem/chains";
-import { useAccount } from "wagmi";
+import { Address as AddressType, createWalletClient, http, parseEther } from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
+import { useAccount } from "~~/node_modules/wagmi/dist/types/exports";
 import { BanknotesIcon } from "@heroicons/react/24/outline";
 import { Address, AddressInput, Balance, EtherInput } from "~~/components/scaffold-eth";
 import { useTransactor } from "~~/hooks/scaffold-eth";

@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
 import { useIsMounted } from "usehooks-ts";
-import { usePublicClient } from "wagmi";
+import { usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
 import { Contract, ContractCodeStatus, ContractName, contracts } from "~~/utils/scaffold-eth/contract";
 
 /**

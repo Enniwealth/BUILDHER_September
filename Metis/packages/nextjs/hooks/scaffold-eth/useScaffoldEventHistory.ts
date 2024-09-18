@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { Abi, AbiEvent, ExtractAbiEventNames } from "abitype";
-import { BlockNumber, GetLogsParameters } from "viem";
-import { Config, UsePublicClientReturnType, useBlockNumber, usePublicClient } from "wagmi";
+import { BlockNumber, GetLogsParameters } from "~~/node_modules/viem/_types";
+import { Config, UsePublicClientReturnType, useBlockNumber, usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
 import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import { replacer } from "~~/utils/scaffold-eth/common";
 import {

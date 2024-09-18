@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { NextPage } from "next";
-import { useAccount } from "wagmi";
+import { useAccount } from "~~/node_modules/wagmi/dist/types/exports";
 import { BugAntIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { Address } from "~~/components/scaffold-eth";
 

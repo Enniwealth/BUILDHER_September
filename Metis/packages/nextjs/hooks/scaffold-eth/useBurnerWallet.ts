@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
 import { useLocalStorage } from "usehooks-ts";
-import { Chain, Hex, HttpTransport, PrivateKeyAccount, createWalletClient, http } from "viem";
-import { WalletClient } from "viem";
-import { generatePrivateKey, privateKeyToAccount } from "viem/accounts";
-import { usePublicClient } from "wagmi";
+import { Chain, Hex, HttpTransport, PrivateKeyAccount, createWalletClient, http } from "~~/node_modules/viem/_types";
+import { WalletClient } from "~~/node_modules/viem/_types";
+import { generatePrivateKey, privateKeyToAccount } from "~~/node_modules/viem/_types/accounts";
+import { usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
 
 const burnerStorageKey = "scaffoldEth2.burnerWallet.sk";
 

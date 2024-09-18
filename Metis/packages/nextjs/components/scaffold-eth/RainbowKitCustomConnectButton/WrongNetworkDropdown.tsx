@@ -1,5 +1,5 @@
 import { NetworkOptions } from "./NetworkOptions";
-import { useDisconnect } from "wagmi";
+import { useDisconnect } from "~~/node_modules/wagmi/dist/types/exports";
 import { ArrowLeftOnRectangleIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
 
 export const WrongNetworkDropdown = () => {

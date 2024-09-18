@@ -6,8 +6,8 @@ import { AddressLogsTab } from "./AddressLogsTab";
 import { AddressStorageTab } from "./AddressStorageTab";
 import { PaginationButton } from "./PaginationButton";
 import { TransactionsTable } from "./TransactionsTable";
-import { createPublicClient, http } from "viem";
-import { hardhat } from "viem/chains";
+import { createPublicClient, http } from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
 import { useFetchBlocks } from "~~/hooks/scaffold-eth";
 
 type AddressCodeTabProps = {

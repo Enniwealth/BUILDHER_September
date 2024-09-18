@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
-import { Address, Log } from "viem";
-import { usePublicClient } from "wagmi";
+import { Address, Log } from "~~/node_modules/viem/_types";
+import { usePublicClient } from "~~/node_modules/wagmi/dist/types/exports";
 
 export const useContractLogs = (address: Address) => {
   const [logs, setLogs] = useState<Log[]>([]);

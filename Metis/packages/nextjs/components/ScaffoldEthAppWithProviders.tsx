@@ -5,7 +5,7 @@ import { RainbowKitProvider, darkTheme, lightTheme } from "@rainbow-me/rainbowki
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { useTheme } from "next-themes";
 import { Toaster } from "react-hot-toast";
-import { WagmiProvider } from "wagmi";
+import { WagmiProvider } from "~~/node_modules/wagmi/dist/types/exports";
 import { Footer } from "~~/components/Footer";
 import { Header } from "~~/components/Header";
 import { BlockieAvatar } from "~~/components/scaffold-eth";

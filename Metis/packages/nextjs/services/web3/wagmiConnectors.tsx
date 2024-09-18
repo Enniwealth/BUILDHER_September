@@ -8,7 +8,7 @@ import {
   walletConnectWallet,
 } from "@rainbow-me/rainbowkit/wallets";
 import { rainbowkitBurnerWallet } from "burner-connector";
-import * as chains from "viem/chains";
+import * as chains from "~~/node_modules/viem/_types/chains";
 import scaffoldConfig from "~~/scaffold.config";
 
 const { onlyLocalBurnerWallet, targetNetworks } = scaffoldConfig;

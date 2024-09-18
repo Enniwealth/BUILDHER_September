@@ -2,8 +2,8 @@ import { useEffect } from "react";
 import { useTargetNetwork } from "./useTargetNetwork";
 import { QueryObserverResult, RefetchOptions, useQueryClient } from "@tanstack/react-query";
 import type { ExtractAbiFunctionNames } from "abitype";
-import { ReadContractErrorType } from "viem";
-import { useBlockNumber, useReadContract } from "wagmi";
+import { ReadContractErrorType } from "~~/node_modules/viem/_types";
+import { useBlockNumber, useReadContract } from "~~/node_modules/wagmi/dist/types/exports";
 import { useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import {
   AbiFunctionReturnType,

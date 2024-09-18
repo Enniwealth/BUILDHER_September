@@ -1,5 +1,5 @@
 import { ReactElement, useState } from "react";
-import { TransactionBase, TransactionReceipt, formatEther, isAddress, isHex } from "viem";
+import { TransactionBase, TransactionReceipt, formatEther, isAddress, isHex } from "~~/node_modules/viem/_types";
 import { ArrowsRightLeftIcon } from "@heroicons/react/24/solid";
 import { Address } from "~~/components/scaffold-eth";
 import { replacer } from "~~/utils/scaffold-eth/common";

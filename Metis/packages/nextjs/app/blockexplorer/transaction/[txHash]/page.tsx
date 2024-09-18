@@ -1,6 +1,6 @@
 import TransactionComp from "../_components/TransactionComp";
 import type { NextPage } from "next";
-import { Hash } from "viem";
+import { Hash } from "~~/node_modules/viem/_types";
 import { isZeroAddress } from "~~/utils/scaffold-eth/common";
 
 type PageProps = {

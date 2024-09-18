@@ -1,7 +1,7 @@
 import { useTargetNetwork } from "./useTargetNetwork";
 import { Abi, ExtractAbiEventNames } from "abitype";
-import { Log } from "viem";
-import { useWatchContractEvent } from "wagmi";
+import { Log } from "~~/node_modules/viem/_types";
+import { useWatchContractEvent } from "~~/node_modules/wagmi/dist/types/exports";
 import { addIndexedArgsToEvent, useDeployedContractInfo } from "~~/hooks/scaffold-eth";
 import { ContractAbi, ContractName, UseScaffoldEventConfig } from "~~/utils/scaffold-eth/contract";
 

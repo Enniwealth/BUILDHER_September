@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { TransactionReceipt } from "viem";
+import { TransactionReceipt } from "~~/node_modules/viem/_types";
 import { CheckCircleIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 import { ObjectFieldDisplay } from "~~/app/debug/_components/contract";
 import { replacer } from "~~/utils/scaffold-eth/common";

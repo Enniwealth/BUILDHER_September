@@ -3,10 +3,10 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { CopyToClipboard } from "react-copy-to-clipboard";
-import { Address as AddressType, getAddress, isAddress } from "viem";
-import { hardhat } from "viem/chains";
-import { normalize } from "viem/ens";
-import { useEnsAvatar, useEnsName } from "wagmi";
+import { Address as AddressType, getAddress, isAddress } from "~~/node_modules/viem/_types";
+import { hardhat } from "~~/node_modules/viem/_types/chains";
+import { normalize } from "~~/node_modules/viem/_types/ens";
+import { useEnsAvatar, useEnsName } from "~~/node_modules/wagmi/dist/types/exports";
 import { CheckCircleIcon, DocumentDuplicateIcon } from "@heroicons/react/24/outline";
 import { BlockieAvatar } from "~~/components/scaffold-eth";
 import { useTargetNetwork } from "~~/hooks/scaffold-eth/useTargetNetwork";
